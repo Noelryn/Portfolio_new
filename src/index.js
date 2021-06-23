@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
-import reportWebVitals from './reportWebVitals'
+// import './index.css'
+import About from './About'
+import Header from './Header'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-)
+// const App = () => {
+//   return (
+//   <h1>
+//     Yo!
+//   </h1>
+//   )
+// }
 
-reportWebVitals()
+ReactDOM.render(<About />, document.getElementById('root'))

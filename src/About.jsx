@@ -1,12 +1,12 @@
 import React from 'react'
 
 
-const App = () => {
+const About = () => {
   return (
   <h1>
-    Yo!
+    About
   </h1>
   )
 }
 
-export default App;
+export default About;

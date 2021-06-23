@@ -37,6 +37,10 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^7.5.0"
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "cypress": "^7.5.0",
+    "webpack": "^5.40.0"
   }
 }
